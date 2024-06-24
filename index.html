@@ -232,11 +232,274 @@
                 cada barra indica la frecuencia de los datos dentro de intervalos definidos.</li>
         </ul>
     </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2024 Mi Sitio web</p>
-    </footer>
-</body>
+    <!DOCTYPE html>
+    <html lang="es">
 
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Temario</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #f9f9f9;
+                color: #333;
+            }
+
+            header {
+                background-color: #4CAF50;
+                color: white;
+                padding: 20px;
+
+            }
+
+            h1 {
+                margin: 0;
+                font-size: 2.5em;
+                text-align: center;
+            }
+
+            h2 {
+                color: #080808;
+                font-size: 1.5em;
+                margin-top: 10px;
+            }
+
+            h3 {
+                color: #4CAF50;
+                font-size: 1.3em;
+                margin-top: 20px;
+            }
+
+            section {
+                background-color: white;
+                border-radius: 8px;
+                margin: 20px;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            ul {
+                list-style-type: disc;
+                padding-left: 20px;
+            }
+
+            li {
+                margin-bottom: 10px;
+            }
+
+            footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 0px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+
+            @media (max-width: 600px) {
+
+                header,
+                section,
+                footer {
+                    padding: 10px;
+                }
+
+                h1 {
+                    font-size: 2em;
+                }
+
+                h2 {
+                    font-size: 1.2em;
+                }
+
+                h3 {
+                    font-size: 1.1em;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Fundamentos de la Teoría de la probabilidad</h1>
+            <ul>
+
+            </ul>
+
+        </header>
+
+        <section>
+            <h2>Subtemas:</h2>
+            </header>
+
+            <p> 2.1 Técnicas de Conteo</p>
+            <ul>
+                <li> 2.1.1 Principio aditivo.</li>
+                <li> 2.1.2 Principio multiplicativo.</li>
+                <li> 2.1.3 Notación Factorial.</li>
+                <li> 2.1.4 Permutaciones.</li>
+                <li> 2.1.5 Combinaciones.</li>
+                <li> 2.1.6 Diagrama de Árbol.</li>
+                <li> 2.1.7 Teorema del Binomio.</li>
+            </ul>
+            <br>
+            <p> 2.2 Teoría elemental de probabilidad.</p>
+            <br>
+            <p> 2.3 Probabilidad de Eventos: Definición de espacio muestral, definición de evento, simbología, unión,
+                intersección, diagramas de Venn.</p>
+            <br>
+            <p> 2.4 Probabilidad con Técnicas de Conteo: Axiomas, Teoremas.</p>
+            <br>
+            <p> 2.5 Probabilidad condicional: Dependiente, Independiente.</p>
+            <br>
+            <p> 2.6 Ley multiplicativa.</p>
+            <br>
+            <p> 2.7 Eventos independientes: Regla de Bayes.</p>
+            <br>
+
+        </section>
+        <section>
+            <ul>
+                <h3> 2.1 Técnicas de Conteo:
+                </h3>
+                <li>Las técnicas de conteo son métodos matemáticos que permiten determinar el número total de posibles
+                    combinaciones, permutaciones o arreglos de elementos en un conjunto. </li>
+                <li> 2.1.1 Principio aditivo: Este principio establece que si se tienen dos eventos mutuamente
+                    excluyentes (es decir, que no pueden ocurrir al mismo tiempo), el número total de maneras en que
+                    puede ocurrir uno u otro de los eventos es la suma de las maneras en que puede ocurrir cada evento
+                    por separado.</li>
+                <li> 2.1.2 Principio multiplicativo: Este principio afirma que si un evento puede ocurrir de
+                    m maneras y, después de que este evento ocurre, un segundo evento puede ocurrir de
+                    n maneras, entonces el número total de formas en que ambos eventos pueden suceder consecutivamente
+                    es el producto de
+                    m y
+                    n.</li>
+                <li> 2.1.3 Notación Factorial: El factorial de un número entero no negativo
+
+                    n, denotado como
+
+                    n!, es el producto de todos los enteros positivos desde 1 hasta
+
+                    n. Es una operación fundamental en combinatoria, probabilidad y muchas áreas de las matemáticas.
+                </li>
+                <li> 2.1.4 Permutaciones: Las permutaciones son arreglos ordenados de un conjunto de elementos. En una
+                    permutación, el orden de los elementos es importante. Las permutaciones se utilizan para contar y
+                    organizar elementos en diferentes órdenes posibles.</li>
+                <li> 2.1.5 Combinaciones: Las combinaciones son arreglos de un conjunto de elementos en los que el orden
+                    no importa. Es decir, las combinaciones cuentan cuántas formas distintas hay de seleccionar un
+                    subconjunto de elementos de un conjunto más grande, sin considerar el orden de los elementos
+                    seleccionados.</li>
+                <li> 2.1.6 Diagrama de Árbol: Un diagrama de árbol es una representación gráfica utilizada para
+                    visualizar y analizar las múltiples opciones y resultados posibles de un proceso que implica
+                    decisiones secuenciales. Cada nodo del árbol representa un punto de decisión o evento, mientras que
+                    las ramas conectan estos nodos para mostrar las diferentes elecciones disponibles en cada paso.</li>
+                <li> 2.1.7 Teorema del Binomio: El teorema binomial nos dice cómo desarrollar expresiones de la forma
+                    (a+b)ⁿ, por ejemplo (x+y)⁷. Mientras mayor sea la potencia, es más difícil desarrollar expresiones
+                    como esta directamente.</li>
+
+            </ul>
+        </section>
+        </section>
+        <section>
+            <ul>
+                <h3> 2.2 Teoría elemental de probabilidad: </h3>
+                <li>
+                    La Teoría Elemental de Probabilidad es un campo fundamental de las matemáticas que estudia la
+                    cuantificación y el análisis de eventos aleatorios. Se centra en calcular y entender las
+                    probabilidades de ocurrencia de diversos resultados en situaciones inciertas o aleatorias. Utiliza
+                    modelos y principios para determinar cómo se distribuyen los posibles resultados de un experimento
+                    aleatorio y cómo calcular la probabilidad asociada con eventos específicos dentro de ese contexto.
+                </li>
+            </ul>
+        </section>
+        </section>
+        <section>
+            <ul>
+                <h3> 2.3 Probabilidad de Eventos: </h3>
+                <li> Espacio muestral: Se refiere al conjunto de todos los posibles resultados individuales de un
+                    experimento aleatorio. Es decir, representa el conjunto completo de todos los resultados posibles
+                    que podrían ocurrir en una situación particular bajo condiciones especificadas.</li>
+                <li> Evento: n evento es un subconjunto del espacio muestral S, que representa un conjunto de resultados
+                    posibles de un experimento aleatorio. </li>
+                <li> Simbología: Se refiere al uso y estudio de símbolos, es decir, signos gráficos que representan
+                    conceptos, ideas, operaciones matemáticas, y más.</li>
+                <li> Unión: En matemáticas y teoría de conjuntos, la "unión" de dos conjuntos A y B, denotada como A∪B,
+                    es otro conjunto que contiene todos los elementos que pertenecen a al menos uno de los
+                    conjuntos originales.</li>
+                <li> Intersección: La intersección de dos conjuntos A y B, denotada como A∩B
+                    A∩B, es el conjunto que contiene todos los elementos que son comunes a ambos conjuntos originales A
+                    y B.
+                </li>
+                <li> Diagramas de Venn:
+                    Los diagramas de Venn son representaciones visuales que utilizan círculos o elipses para ilustrar
+                    las relaciones entre conjuntos y sus elementos. Cada conjunto se representa mediante un círculo o
+                    una región cerrada, y las áreas de superposición entre estos círculos muestran los elementos que
+                    pertenecen simultáneamente a los conjuntos correspondientes.</li>
+            </ul>
+        </section>
+        </section>
+        <section>
+            <ul>
+                <h3> 2.4 Probabilidad con Técnicas de Conteo: </h3>
+                <li> Axiomas: Los axiomas son principios fundamentales aceptados como verdaderos sin necesidad de
+                    demostración dentro de un sistema formal o teoría. Sirven como la base sobre la cual se construyen
+                    teoremas y se desarrolla el razonamiento dentro de ese sistema, proporcionando consistencia,
+                    universalidad y independencia.</li>
+                <li> Teoremas: Un teorema es una proposición matemática que ha sido demostrada como verdadera a partir
+                    de axiomas, definiciones previamente establecidas y otros teoremas ya probados. </li>
+            </ul>
+        </section>
+        </section>
+        <section>
+            <ul>
+                <h3> 2.5 Probabilidad condicional: </h3>
+                <li> Dependiente: Se refiere a la situación en la cual la ocurrencia del evento B afecta la probabilidad
+                    de que ocurra el evento A. </li>
+                <li> Independiente: Se da cuando la ocurrencia del evento B no tiene ningún efecto sobre la probabilidad
+                    de que ocurra el evento A. </li>
+            </ul>
+        </section>
+        </section>
+        <section>
+            <ul>
+                <h3> 2.6 Ley multiplicativa:</h3>
+                <li> se refiere a una regla fundamental que permite calcular la probabilidad de la intersección de dos
+                    eventos, bajo ciertas condiciones.
+                    Si A y B son dos eventos en un espacio muestral finito o infinito, entonces la probabilidad de que
+                    ambos eventos ocurran simultáneamente (es decir, la intersección de A y B) se puede calcular como el
+                    producto de la probabilidad de uno de los eventos por la probabilidad condicional del otro evento
+                    dado el primero.
+                </li>
+            </ul>
+        </section>
+        </section>
+        <section>
+            <ul>
+                <h3> 2.7 Eventos independientes:</h3>
+                <li> Regla de Bayes: La intersección de dos conjuntos A y B, denotada como A∩B
+                    A∩B, es el conjunto que contiene todos los elementos que son comunes a ambos conjuntos originales A
+                    y B.
+
+                    La regla de Bayes, también conocida como teorema de Bayes, es una herramienta fundamental en la
+                    teoría de la probabilidad que permite actualizar la probabilidad de una hipótesis H dado un nuevo
+                    conocimiento o evidencia E.</li>
+            </ul>
+        </section>
+        <br>
+        <br>
+        <br>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Mi Sitio web</p>
+        </footer>
+    </body>
+
+    </html>
