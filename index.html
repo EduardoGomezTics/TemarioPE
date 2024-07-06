@@ -811,6 +811,58 @@
                         <li>Comparación de dos varianzas, especialmente en análisis de varianza.</li>
                     </ul>
                 </section>
+
+                <section>
+
+                    <head>
+                        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+                        <script id="MathJax-script" async
+                            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+                    </head>
+
+
+                    <head>
+
+                    <body>
+                        <header>
+                            <h1>Formulas de distribuciones de Probabilidad</h1>
+                        </header>
+                        <h3>Distribución binomial:</h3>
+                        <div>
+                            $$
+                            f(k; n, p) = \binom{n}{k} p^k (1-p)^{n-k}
+                            $$
+                        </div>
+                        <p>¿Cúando usar?</p>
+                        <li>Experimentos de Bernoulli con dos resultados posibles.</li>
+                        <h3>Distribución hipergeométrica:</h3>
+                        <div>
+                            $$
+                            f(k; N, n, K) = \frac{\binom{K}{k} \binom{N-K}{n-k}}{\binom{N}{n}}
+                            $$
+                        </div>
+                        <p>¿Cúando usar?</p>
+                        <li>Muestreo sin reemplazo de una población finita.</li>
+                        <h3>Distribución de Poisson:</h3>
+                        <div>
+                            $$
+                            f(k; \lambda) = \frac{e^{-\lambda} \lambda^k}{k!}
+                            $$</div>
+                        <p>¿Cuándo usar?</p>
+                        <li>Modelar eventos raros y discretos en un intervalo de tiempo o espacio.</li>
+                        <h3>Distribución Normal:</h3>
+                        <div>
+                            $$
+                            f(x; \mu, \sigma^2) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}
+                            $$</div>
+                        <p>¿Cuándo usar?</p>
+                        <li>Modelar datos continuos con una distribución simétrica.</li>
+
+                    </body>
+
+                    </head>
+
+                </section>
                 <br>
                 <br>
                 <br>
